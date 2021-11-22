@@ -21,7 +21,7 @@ int main(int argc, char* argv[])
 
     	string filename = "./disk1.bin";
 	
-	//fileSystem.format( 100, filename ); // causes error for some reason
+	fileSystem.format(100, filename); // causes error for some reason
 		  
 	return 0;
 }
